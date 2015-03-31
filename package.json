@@ -1,6 +1,6 @@
 {
   "name": "bunyan-hub-logstash",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Logstash plugin for bunyan-hub",
   "repository": "https://github.com/undoZen/bunyan-logstash.git",
   "homepage": "https://github.com/undoZen/bunyan-logstash",
