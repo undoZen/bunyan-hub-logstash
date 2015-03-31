@@ -25,14 +25,14 @@
   </tr>
 </table>
 
-# Adding the bunyan-logstash stream to Bunyan
+# Adding the bunyan-hub-logstash stream to Bunyan
 
 ```
 var log = bunyan.createLogger({
   streams: [
     {
       type: "raw",
-      stream: require('bunyan-logstash').createStream({
+      stream: require('bunyan-hub-logstash').createStream({
         host: '127.0.0.1',
         port: 5505
       })
