@@ -9,11 +9,6 @@
     <td><code>info</code></td>
   </tr>
   <tr>
-    <th>server</th>
-    <td>string</td>
-    <td><code>os.hostname()</code></td>
-  </tr>
-  <tr>
     <th>host</th>
     <td>string</td>
     <td><code>"127.0.0.1"</code></td>
@@ -22,16 +17,6 @@
     <th>port</th>
     <td>number</td>
     <td><code>9999</code></td>
-  </tr>
-  <tr>
-    <th>application</th>
-    <td>string</td>
-    <td><code>process.title</code></td>
-  </tr>
-  <tr>
-    <th>pid</th>
-    <td>string</td>
-    <td><code>process.pid</code></td>
   </tr>
   <tr>
     <th>tags</th>
